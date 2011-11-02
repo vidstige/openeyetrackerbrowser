@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>XConf/X Main ISFM.png</file>
+        <file>XConf/X Main TX300.png</file>
+        <file>XConf/X Main.png</file>
+        <file>XConf/X pitch ISFM.png</file>
+        <file>XConf/X pitch TX300.png</file>
+        <file>XConf/X pitch.png</file>
+        <file>XConf/X sideoff ISFM.png</file>
+        <file>XConf/X sideoff TX300.png</file>
+        <file>XConf/X sideoff.png</file>
+    </qresource>
+</RCC>

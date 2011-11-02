@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>XConfigDialogX120</class>
+ <widget class="QDialog" name="XConfigDialogX120">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1041</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Icons.qrc">
+    <normaloff>:/tetserver-browser.ico</normaloff>:/tetserver-browser.ico</iconset>
+  </property>
+  <widget class="QLabel" name="sideLabel">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>621</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="XConf.qrc">:/XConf/X Main.bmp</pixmap>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="offsetLabel">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>70</y>
+     <width>311</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="XConf.qrc">:/XConf/X sideoff.bmp</pixmap>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="rotationLabel">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>270</y>
+     <width>311</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="XConf.qrc">:/XConf/X pitch.bmp</pixmap>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>400</y>
+     <width>93</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>[deg]</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>440</y>
+     <width>93</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QDoubleSpinBox" name="doubleSpinBox_2"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>[deg]</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>370</y>
+     <width>93</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QDoubleSpinBox" name="doubleSpinBox_3"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>[deg]</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>120</y>
+     <width>93</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="0">
+     <widget class="QDoubleSpinBox" name="doubleSpinBox_4"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>[deg]</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>130</y>
+     <width>93</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_5">
+    <item row="0" column="0">
+     <widget class="QDoubleSpinBox" name="doubleSpinBox_5"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>[deg]</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_6">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>330</y>
+     <width>93</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_6">
+    <item row="0" column="0">
+     <widget class="QDoubleSpinBox" name="doubleSpinBox_6"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>[deg]</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Icons.qrc"/>
+  <include location="XConf.qrc"/>
+ </resources>
+ <connections/>
+</ui>

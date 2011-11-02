@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="PublishZip" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<Import Project="$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets" />
+
+	<!--
+		Build properties
+    -->
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">Win32</Platform>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<ArtifactDir>ArtifactDir\</ArtifactDir>
+		<SdkVersion>3.0.2</SdkVersion>
+		<BuildVersionFile>BuildVersion.targets</BuildVersionFile>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<BUILD_NUMBER Condition="'$(BUILD_NUMBER)' == ''">0.0.1</BUILD_NUMBER>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<SignTool Condition="'$(SIGNTOOL)' == ''">signtool.exe</SignTool>
+	</PropertyGroup>
+
+	
+	<!--+
+	    |
+	    | This target unzips the tobii sdk
+	    |
+	    +-->
+	<Target Name="Unzip" >
+		<Error Condition="!Exists('tobiisdk-Win32.zip')" Text="The file 'tobiisdk-Win32.zip does not exist. Please download it into this folder before building." />
+		<Message Text="Unzipping tobiisdk..." />
+		<Unzip ZipFileName="tobiisdk-Win32.zip" TargetDirectory="." ContinueOnError="true"/>
+	</Target>	
+	
+	<!--+
+	|
+	| This target sets the app version by modifying a header file
+	|
+	+-->
+	<Target Name="SetAppVersion">
+		<Message Text="Setting Application Version to $(BUILD_NUMBER)" />
+		<FileUpdate Files="src\AppVersion.hpp"
+						Regex="0.0.1"   
+						ReplacementText="$(BUILD_NUMBER)"
+						Encoding="ascii"/>  
+	</Target>
+	
+	<!--+
+	    |
+	    | This target runs qmake
+	    |
+	    +-->
+	<Target Name="QMake" DependsOnTargets="SetAppVersion">
+		<Message Text="Generating vcproj file..." />
+		<Exec Command="$(QT_SDK_ROOT)\bin\qmake.exe src\EyetrackerBrowser.pro -r -spec win32-msvc2008 CONFIG+=release -tp vc"/>
+	</Target>	
+
+		<!--+
+	    |
+	    | This target compiles the final binary
+	    |
+	    +-->
+	<Target Name="Compile" DependsOnTargets="QMake;Unzip">
+		<Message Text="Compiling ET Tools..." />
+		<VCBuild Projects="EyetrackerBrowser.vcproj" Configuration="$(Configuration)" Platform="$(Platform)" Rebuild="true"/>
+	</Target>
+	
+		<!--+
+	    |
+	    | This target collects all the artifacts
+	    |
+	    +-->
+	<Target Name="CollectArtifacts" DependsOnTargets="Compile">
+		<Message Text="Collecting Artifacts..." />
+		<ItemGroup>
+			<Binaries Include="release\EyetrackerBrowser.exe" />
+			<Binaries Include="Win32\C++\binaries\tobiisdk.dll" />
+			<Binaries Include="$(QT_SDK_ROOT)\bin\QtGui4.dll" />
+			<Binaries Include="$(QT_SDK_ROOT)\bin\QtCore4.dll" />
+		</ItemGroup>
+		<RemoveDir Directories="$(ArtifactDir)"/>
+		<Copy SourceFiles="@(Binaries)" DestinationFolder="$(ArtifactDir)"/>		
+	</Target>
+
+	<!--+
+		|
+		| This target publishes all artifacts as a zip
+		|
+		+-->
+	<Target Name="PublishZip" DependsOnTargets="CollectArtifacts">
+		<Message Text="Building ZIP file of Artifacts..." />
+		<ItemGroup>
+			<ArtifactFiles Include="$(ArtifactDir)**\*.*" />
+		</ItemGroup>
+		<Zip
+				Files="@(ArtifactFiles)"
+				ZipFileName="EyetrackerBrowser-$(Platform).zip"
+				WorkingDirectory="$(ArtifactDir)"
+				Comment="Eyetracker Browser for Windows ($(Platform))" />
+		
+		<!-- This message will tell Teamcity to publish the Zip file -->
+		<Message Text="##teamcity[publishArtifacts 'EyetrackerBrowser-$(Platform).zip']" />
+	</Target>
+	
+</Project>

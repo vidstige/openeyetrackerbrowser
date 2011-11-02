@@ -1,0 +1,341 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src
+END
+ListviewDelegate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/ListviewDelegate.cpp
+END
+XDataFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/XDataFile.cpp
+END
+UpgradeDialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/UpgradeDialog.ui
+END
+EyetrackerBrowser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/EyetrackerBrowser.cpp
+END
+WaitForTrackerDialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/WaitForTrackerDialog.ui
+END
+XDataSaver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/XDataSaver.cpp
+END
+MainloopThread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/MainloopThread.cpp
+END
+WaitForTrackerDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/WaitForTrackerDialog.cpp
+END
+UpgradeDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/UpgradeDialog.cpp
+END
+SetNameDialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/SetNameDialog.ui
+END
+XConfigDialogTX300.ui
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/XConfigDialogTX300.ui
+END
+mainwindow.ui
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/mainwindow.ui
+END
+TrackerProperties.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/TrackerProperties.cpp
+END
+BackgroundWorker.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/BackgroundWorker.cpp
+END
+BusyIndicator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/BusyIndicator.cpp
+END
+EyetrackerBrowser.pro
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/EyetrackerBrowser.pro
+END
+SetNameDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/SetNameDialog.h
+END
+XConfigDialogTX300.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/XConfigDialogTX300.h
+END
+mainwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/mainwindow.h
+END
+UpgradeManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/UpgradeManager.cpp
+END
+MathTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/MathTypes.h
+END
+XDataModelUnitAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/XDataModelUnitAdapter.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/main.cpp
+END
+windows_icon.rc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/windows_icon.rc
+END
+EyetrackerBrowserEventArgs.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/EyetrackerBrowserEventArgs.h
+END
+XDataModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/XDataModel.h
+END
+unlocker.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/unlocker.h
+END
+EyeTrackerBrowserApplication.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/EyeTrackerBrowserApplication.h
+END
+DiagnosticsDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/DiagnosticsDialog.h
+END
+singletracker.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/singletracker.h
+END
+ListviewDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/ListviewDelegate.h
+END
+XDataFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/XDataFile.h
+END
+EyetrackerBrowser.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/EyetrackerBrowser.h
+END
+XDataSaver.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/XDataSaver.h
+END
+MainloopThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/MainloopThread.h
+END
+UpgradeDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/UpgradeDialog.h
+END
+SetNameDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/SetNameDialog.cpp
+END
+WaitForTrackerDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/WaitForTrackerDialog.h
+END
+XConfigDialogTX300.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/XConfigDialogTX300.cpp
+END
+main.ico
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/main.ico
+END
+mainwindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/mainwindow.cpp
+END
+TrackerProperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/TrackerProperties.h
+END
+BackgroundWorker.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/BackgroundWorker.h
+END
+XConf.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/XConf.qrc
+END
+EyetrackerBrowserEventArgs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/EyetrackerBrowserEventArgs.cpp
+END
+DiagnosticsDialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/DiagnosticsDialog.ui
+END
+XDataModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/XDataModel.cpp
+END
+unlocker.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/unlocker.cpp
+END
+XConfigDialogX120.ui
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/XConfigDialogX120.ui
+END
+BusyIndicator.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/BusyIndicator.h
+END
+EyeTrackerBrowserApplication.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/EyeTrackerBrowserApplication.cpp
+END
+UpgradeManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/UpgradeManager.h
+END
+DiagnosticsDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/DiagnosticsDialog.cpp
+END
+XDataModelUnitAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/XDataModelUnitAdapter.h
+END
+AppVersion.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/AppVersion.hpp
+END
+singletracker.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/ec/!svn/ver/13507/projects/sdk/phase-1/trunk/src/glue/tests/cpp/opentrackerbrowser/src/singletracker.cpp
+END
